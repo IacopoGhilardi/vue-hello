@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             methods: {
                 showImage: function() {
-                    this.myclass == "red" ? this.myclass = "blue" : this.myclass = "red";
-                    this.myclass2 == "hidden" ? this.myclass2 = "show" : this.myclass2 = "hidden";
+                    this.myclass = this.myclass == "red" ? "blue" : "red";
+                    this.myclass2 = this.myclass2 == "hidden" ? "show" : "hidden";
                 }
             }
         });
