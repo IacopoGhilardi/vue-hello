@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#hello {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+}
+
+#hello img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
